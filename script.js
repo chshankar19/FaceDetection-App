@@ -14,9 +14,9 @@ async function loadModels() {
         // await faceapi.nets.tinyFaceDetector.loadFromUri('/models');
         // await faceapi.nets.faceExpressionNet.loadFromUri('/models');
         // await faceapi.nets.ageGenderNet.loadFromUri('/models'); 
-        await faceapi.nets.tinyFaceDetector.loadFromUri('https://github.com/chshankar19/FaceDetection-App/tree/main/models');
-        await faceapi.nets.faceExpressionNet.loadFromUri('https://github.com/chshankar19/FaceDetection-App/tree/main/models');
-        await faceapi.nets.ageGenderNet.loadFromUri('https://github.com/chshankar19/FaceDetection-App/tree/main/models');
+        await faceapi.nets.tinyFaceDetector.loadFromUri('https://github.com/chshankar19/FaceDetection-App/tree/720612da46f4efd92d5203b8c267b0336c985bf6/models');
+        await faceapi.nets.faceExpressionNet.loadFromUri('https://github.com/chshankar19/FaceDetection-App/tree/720612da46f4efd92d5203b8c267b0336c985bf6/models');
+        await faceapi.nets.ageGenderNet.loadFromUri('https://github.com/chshankar19/FaceDetection-App/tree/720612da46f4efd92d5203b8c267b0336c985bf6/models');
 
         console.log('Models Loaded Successfully');
     } catch (error) {
