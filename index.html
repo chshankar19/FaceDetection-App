@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face and Emotion Detection</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+</head>
+<body>
+    <h1>Face and Emotion Detection</h1>
+    <div class="main-container">
+        <div id="webcam-container"></div>
+        <div id="output-container">
+            <!-- <p id="emotion-label"></p> -->
+        </div>
+    </div>
+    <div id="controls-container">
+        <button id="start-button">Start Webcam</button>
+        <button id="stop-button" style="display:none;">Stop Webcam</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
