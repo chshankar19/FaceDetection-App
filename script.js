@@ -11,12 +11,9 @@ async function loadModels() {
 
     try {
         console.log('Loading models...');
-        // await faceapi.nets.tinyFaceDetector.loadFromUri('/models');
-        // await faceapi.nets.faceExpressionNet.loadFromUri('/models');
-        // await faceapi.nets.ageGenderNet.loadFromUri('/models'); 
-        await faceapi.nets.tinyFaceDetector.loadFromUri('https://chshankar19.github.io/FaceDetection-App/models');
-        await faceapi.nets.faceExpressionNet.loadFromUri('https://chshankar19.github.io/FaceDetection-App/models');
-        await faceapi.nets.ageGenderNet.loadFromUri('https://chshankar19.github.io/FaceDetection-App/models');
+        await faceapi.nets.tinyFaceDetector.loadFromUri('/models');
+        await faceapi.nets.faceExpressionNet.loadFromUri('/models');
+        await faceapi.nets.ageGenderNet.loadFromUri('/models'); 
 
         console.log('Models Loaded Successfully');
     } catch (error) {
